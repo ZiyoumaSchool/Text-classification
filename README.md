@@ -29,3 +29,5 @@ Others library are not present in right version. It's the reason why we install 
 You can eventually set the N_EPOCHS variable which represents the number of iterations.
 5) Activate the GPU execusion type().
 6) Run all the notebook test().
+
+After that, the CollectedDataTrain.csv file will be update by new sentences and text labels predicted by the model. So to get all the dataset collected, i just have to download th CollectedDataTrain.csv file
