@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+	<div>
+		<form method="POST" action="{% url 'TextClassification:run' %}">
+			{% csrf_token %}
+			<textarea rows=15 cols=100 name="text">{% if text %}{{ text }}{% endif %}
+			</textarea>
+			<input type="submit" value="Valider">
+		</form>
+	</div>
+	<div><b>Classe</b> : {% if class %} <span style="color: blue">{{ class }}</span> {% endif %}</div> 
+
+<script type="">
+	
+</script>
+</body>
+</html>
