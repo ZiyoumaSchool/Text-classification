@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.0] - 2021-10-15
+### Added
+- GBV folder for our wab django project.
+- Modeling folder getting the notebook and the dataset.
+- Models folder containing the ML model obtained after training.
+
+### Changed
+- We changed the RAEDME.md and the CHANGELOG.md
+
 ## [1.1.0] - 2021-09-30
 ### Added
 - A CollectedDataTrain.csv to store new sentences and thiers labels obtained predictions of the model.
